@@ -1,0 +1,21 @@
+.container{
+    width: 600px;
+    /*height: 600px;*/
+    border: 4px solid;
+}
+button{
+    padding: 10px;
+}
+img{
+    width: 100px;
+    display: none;
+}
+.dog:hover~.img1{
+    display: block;
+}
+.rabbit:hover ~.img2{
+    display:block;
+}
+.cat:hover~.img3{
+    display: block;
+}

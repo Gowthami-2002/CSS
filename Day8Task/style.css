@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    height: 650px;
+    width: 1400px;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.box{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.box:hover>img{
+   display: none;
+}
+.box1:hover{
+    background-color: skyblue;
+} 
+.box2:hover{
+    background-color: green;
+} 
+.box3:hover{
+    background-color: pink;
+} 
+.box4:hover{
+    background-color: yellow;
+} 
+p{
+    opacity: 0;
+}
+.box:hover>p{
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-style: italic;
+    height: 100%;
+    width: 100%;
+} 
