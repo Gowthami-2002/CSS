@@ -1,0 +1,40 @@
+ .container {
+     width: 800px;
+     height: 800px;
+     border: 2px solid;
+ }
+.oddrow {
+     width: 100%;
+     height: 100px;
+     display: flex;
+ } 
+ .evenrow{
+    width:100%;
+    height: 100px;
+    display: flex;
+ }
+ .box {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    font-size: 70px;
+}
+.oddrow>.box:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+
+.oddrow>.box:nth-child(even) {
+    background-color: black;
+    color: white;
+}
+
+.evenrow>.box:nth-child(even) {
+    background-color: white;
+    color: black;
+}
+
+.evenrow>.box:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
