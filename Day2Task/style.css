@@ -1,0 +1,32 @@
+.maincontainer{
+    width: 90%;
+    /* height: 30px; */
+    margin-left: 50px;
+}
+.container{
+    width: 90%;
+    padding: 10px;
+    margin-left: 50px;
+    /* border: 2px solid red; */
+} 
+.item{
+    display: inline-block;
+    width: 320px;
+    /* border: 2px solid red;   */
+    margin-left: 10px;
+}
+img{
+    width: 100%;
+}
+.menu{
+    padding-left: 30px;
+}
+.nav{
+    display: inline-block;
+}
+.food{
+    margin-left: 580px;
+}
+.mail{
+    margin-left: 580px;
+}
